@@ -33,7 +33,7 @@ public class Bot extends ListenerAdapter implements EventListener{
 		gatewayIntents.add(GatewayIntent.GUILD_MEMBERS);
 		
 		//JDABuilder creation
-		JDABuilder jdaBuilder = JDABuilder.createDefault("Nzg1NzA4ODU5OTQ2ODI3Nzc3.X87yZQ.y_4F9HaUpuDWZZqxvewC8WTiFX4");
+		JDABuilder jdaBuilder = JDABuilder.createDefault("Your Bot Token");
 		
 		jdaBuilder.enableIntents(gatewayIntents);
 		
